@@ -1,3 +1,4 @@
+namespace: mu
 environments:
 - name: dev
 - name: production
@@ -9,6 +10,6 @@ service:
   pipeline:
     source:
       provider: GitHub
-      repo: myuser/banana-service
+      repo: diatmpravin/banana-service
     build:
       image: aws/codebuild/java:openjdk-8
